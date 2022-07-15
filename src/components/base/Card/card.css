@@ -1,0 +1,48 @@
+.card-container {
+    display: grid;
+    grid-row-gap: initial ;
+    background: rgb(30 41 59);
+    border-radius: 5px;
+    padding: 15px;
+    height: 260px;
+    border: 1px solid transparent;
+}
+
+.card-container:hover {
+    border: 1px solid rgb(126 34 206);
+}
+
+.card-container .top {
+    display: flex;
+}
+
+.card-container .title {
+    font-weight: 600;
+} 
+
+.card-container .text {
+    font-weight: 300;
+    font-size: 15px;
+    color: gray;
+} 
+
+.card-container .button {
+    background: rgb(126 34 206);
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card-container .button:hover {
+    border: 1px solid rgb(107 33 168);
+}
+
+.card-container .button:disabled {
+    background:  rgb(68 64 60);
+    border: none !important;
+    cursor: not-allowed
+}
